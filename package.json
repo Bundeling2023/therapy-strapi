@@ -1,0 +1,37 @@
+{
+  "name": "strapi",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "@sklinet/strapi-plugin-video-field": "^1.0.4",
+    "@strapi/plugin-graphql": "4.9.2",
+    "@strapi/plugin-i18n": "4.9.2",
+    "@strapi/plugin-seo": "^1.8.0",
+    "@strapi/plugin-users-permissions": "4.9.2",
+    "@strapi/provider-upload-cloudinary": "4.9.2",
+    "@strapi/strapi": "4.9.2",
+    "pg": "8.8.0",
+    "strapi-plugin-ckeditor5": "^2.1.1-rc.1",
+    "strapi-plugin-navigation": "^2.2.7",
+    "strapi-plugin-populate-deep": "^2.0.0",
+    "strapi-plugin-rest-cache": "^4.2.7"
+  },
+  "author": {
+    "name": "Pavel Astapov"
+  },
+  "strapi": {
+    "uuid": "35d7a084-3088-4d0b-869e-f503693ee8e5"
+  },
+  "engines": {
+    "node": ">=16.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}

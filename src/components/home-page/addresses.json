@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_home_page_addresses",
+  "info": {
+    "displayName": "addresses"
+  },
+  "options": {},
+  "attributes": {
+    "coordinates": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

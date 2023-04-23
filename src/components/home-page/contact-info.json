@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_home_page_contact_infos",
+  "info": {
+    "displayName": "contactInfo"
+  },
+  "options": {},
+  "attributes": {
+    "email": {
+      "type": "string",
+      "required": true
+    },
+    "phone": {
+      "type": "string",
+      "required": true
+    },
+    "mainAddress": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

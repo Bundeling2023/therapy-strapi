@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_home_page_main_banners",
+  "info": {
+    "displayName": "mainBanner"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "link": {
+      "type": "string",
+      "required": true
+    },
+    "buttonText": {
+      "type": "string",
+      "required": true,
+      "default": "Maak een afspraak"
+    },
+    "img": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}
