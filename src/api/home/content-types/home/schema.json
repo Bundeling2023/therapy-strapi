@@ -25,19 +25,6 @@
       "max": 4,
       "required": true
     },
-    "team": {
-      "type": "component",
-      "repeatable": true,
-      "component": "home-page.team",
-      "required": true,
-      "max": 10
-    },
-    "addressesMap": {
-      "type": "component",
-      "repeatable": true,
-      "component": "home-page.addresses",
-      "required": true
-    },
     "contactsInfo": {
       "type": "component",
       "repeatable": false,
@@ -51,6 +38,11 @@
     "modalVideo": {
       "type": "customField",
       "customField": "plugin::video-field.video"
+    },
+    "teams": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::team.team"
     }
   }
 }
