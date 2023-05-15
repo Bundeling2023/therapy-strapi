@@ -4,7 +4,8 @@
   "info": {
     "singularName": "address",
     "pluralName": "addresses",
-    "displayName": "Address"
+    "displayName": "Location",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -18,6 +19,9 @@
     "description": {
       "type": "richtext",
       "required": true
+    },
+    "name": {
+      "type": "string"
     }
   }
 }
