@@ -29,3 +29,24 @@ This example deploys self-hosted version of [Strapi](https://strapi.io/). Intern
 
 - After your app is deployed, visit the `/admin` endpoint to create your admin user.
 - Railway's filesystem is ephemeral which is why any changes to the filesystem are not persisted between deploys. This is why, this example uses Cloudinary for storage.
+
+# Local development
+
+
+* Add a .env file with all the variables that are in [.env.example](.env.example)
+  * Keys can be generated using: \
+  `node -e "console.log(crypto.randomBytes(16).toString('base64'))"`
+* Run postgres locally using docker
+
+```
+docker run \
+    --name bundeling-strapi \
+    -p 5432:5432 \
+    -e POSTGRES_USER=strapi \
+    -e POSTGRES_PASSWORD=password \
+    -e POSTGRES_DB=strapi \
+    -d \
+    postgres \
+```
+
+* Run `npm run develop`
