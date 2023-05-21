@@ -4,7 +4,8 @@
   "info": {
     "singularName": "team",
     "pluralName": "teams",
-    "displayName": "Team"
+    "displayName": "Team",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -20,11 +21,19 @@
       "required": true
     },
     "img": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "phone": {
+      "type": "string",
+      "required": true
+    },
+    "desc": {
+      "type": "richtext",
       "required": true
     }
   }

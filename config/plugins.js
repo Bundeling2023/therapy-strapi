@@ -23,7 +23,25 @@ module.exports = ({ env }) => ({
         defaultDepth: 20,
       }
     },
-    'navigation': { enabled: true },
+    slugify: {
+      enabled: true,
+      config: {
+        contentTypes: {
+          article: {
+            field: 'slug',
+            references: 'title',
+          },
+        },
+      },
+    },
+    'navigation': {
+      enabled: true,
+      config: {
+        pathDefaultFields: {
+            'api::page.page': ['slug']
+        },
+    }
+    },
     seo: {
       enabled: true,
     },
