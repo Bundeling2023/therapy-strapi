@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "generalinfos",
+  "info": {
+    "singularName": "generalinfo",
+    "pluralName": "generalinfos",
+    "displayName": "General Info"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "contactsInfo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home-page.contact-info",
+      "required": true
+    }
+  }
+}
