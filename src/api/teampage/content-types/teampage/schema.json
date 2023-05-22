@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "teampages",
+  "info": {
+    "singularName": "teampage",
+    "pluralName": "teampages",
+    "displayName": "Team Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "desc": {
+      "type": "text"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    }
+  }
+}
