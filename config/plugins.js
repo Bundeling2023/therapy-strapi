@@ -36,11 +36,6 @@ module.exports = ({ env }) => ({
     },
     'navigation': {
       enabled: true,
-      config: {
-        pathDefaultFields: {
-            'api::page.page': ['slug']
-        },
-    }
     },
     seo: {
       enabled: true,

@@ -24,8 +24,10 @@
       "repeatable": false,
       "component": "shared.seo"
     },
-    "slug": {
-      "type": "uid"
+    "url": {
+      "type": "string",
+      "unique": true,
+      "required": true
     }
   }
 }
