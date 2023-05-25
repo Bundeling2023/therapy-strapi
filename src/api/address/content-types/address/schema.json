@@ -16,12 +16,27 @@
       "type": "string",
       "required": true
     },
-    "description": {
-      "type": "richtext",
+    "address": {
+      "type": "string",
       "required": true
     },
-    "name": {
-      "type": "string"
+    "phone": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "string",
+      "required": true
+    },
+    "workingHours": {
+      "type": "component",
+      "repeatable": false,
+      "component": "location.working-hours"
+    },
+    "url": {
+      "type": "string",
+      "required": true,
+      "unique": true
     }
   }
 }

@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_location_working_hours",
+  "info": {
+    "displayName": "workingHours"
+  },
+  "options": {},
+  "attributes": {
+    "monday": {
+      "type": "string",
+      "required": true
+    },
+    "tuesday": {
+      "type": "string",
+      "required": true
+    },
+    "wednesday": {
+      "type": "string",
+      "required": true
+    },
+    "thursday": {
+      "type": "string",
+      "required": true
+    },
+    "friday": {
+      "type": "string",
+      "required": true
+    },
+    "saturday": {
+      "type": "string",
+      "required": true
+    },
+    "sunday": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
