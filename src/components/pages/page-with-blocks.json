@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_pages_page_with_blocks",
+  "info": {
+    "displayName": "pageWithBlocks",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "blocks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "pages.paga-blocks"
+    }
+  }
+}

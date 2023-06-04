@@ -12,16 +12,24 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "title": {
-      "type": "string"
+    "url": {
+      "type": "string",
+      "required": true,
+      "unique": true
     },
-    "content": {
-      "type": "richtext"
+    "simplePage": {
+      "type": "component",
+      "repeatable": false,
+      "component": "pages.simpe-page"
     },
-    "slug": {
-      "type": "uid",
-      "required": false,
-      "targetField": "title"
+    "mainTitle": {
+      "type": "string",
+      "required": true
+    },
+    "pageWithBlocks": {
+      "type": "component",
+      "repeatable": false,
+      "component": "pages.page-with-blocks"
     }
   }
 }
