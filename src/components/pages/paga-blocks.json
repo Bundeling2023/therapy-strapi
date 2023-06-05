@@ -23,7 +23,9 @@
       "required": true
     },
     "link": {
-      "type": "string"
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::page.page"
     }
   }
 }
