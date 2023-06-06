@@ -22,7 +22,7 @@
       "repeatable": false,
       "component": "pages.simpe-page"
     },
-    "mainTitle": {
+    "title": {
       "type": "string",
       "required": true
     },
