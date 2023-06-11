@@ -4,7 +4,8 @@
   "info": {
     "singularName": "generalinfo",
     "pluralName": "generalinfos",
-    "displayName": "General Info"
+    "displayName": "General Info",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -16,6 +17,16 @@
       "repeatable": false,
       "component": "home-page.contact-info",
       "required": true
+    },
+    "privacyPolicyPage": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::page.page"
+    },
+    "algemenePage": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::page.page"
     }
   }
 }
