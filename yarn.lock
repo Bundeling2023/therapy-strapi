@@ -3197,6 +3197,11 @@
   "resolved" "https://registry.npmjs.org/@types/node/-/node-10.17.60.tgz"
   "version" "10.17.60"
 
+"@types/node@^17.0.5":
+  "integrity" "sha512-w+tIMs3rq2afQdsPJlODhoUEKzFP1ayaoyl1CcnwtIlsVe7K7bA1NGm4s3PraqTLlXnbIN84zuBlxBWo1u9BLw=="
+  "resolved" "https://registry.npmjs.org/@types/node/-/node-17.0.45.tgz"
+  "version" "17.0.45"
+
 "@types/parse-json@^4.0.0":
   "integrity" "sha512-//oorEZjL6sbPcKUaCdIGlIUeH26mgzimjBB77G6XRgnDl/L5wOnpyBGRe/Mmf5CVW3PwEBE1NjiMZ/ssFh4wA=="
   "resolved" "https://registry.npmjs.org/@types/parse-json/-/parse-json-4.0.0.tgz"
@@ -3244,6 +3249,13 @@
   "integrity" "sha512-wWKOClTTiizcZhXnPY4wikVAwmdYHp8q6DmC+EJUzAMsycb7HB32Kh9RN4+0gExjmPmZSAQjgURXIGATPegAvA=="
   "resolved" "https://registry.npmjs.org/@types/retry/-/retry-0.12.0.tgz"
   "version" "0.12.0"
+
+"@types/sax@^1.2.1":
+  "integrity" "sha512-pSAff4IAxJjfAXUG6tFkO7dsSbTmf8CtUpfhhZ5VhkRpC4628tJhh3+V6H1E+/Gs9piSzYKT5yzHO5M4GG9jkw=="
+  "resolved" "https://registry.npmjs.org/@types/sax/-/sax-1.2.4.tgz"
+  "version" "1.2.4"
+  dependencies:
+    "@types/node" "*"
 
 "@types/scheduler@*":
   "integrity" "sha512-5cJ8CB4yAx7BH1oMvdU0Jh9lrEXyPkar6F9G/ERswkCuvP4KQZfZkSjcMbAICCpQTN4OuZn8tz0HiKv9TGZgrQ=="
@@ -3754,6 +3766,11 @@
     "@apollo/utils.logger" "^1.0.0"
     "apollo-reporting-protobuf" "^3.4.0"
     "apollo-server-env" "^4.2.1"
+
+"arg@^5.0.0":
+  "integrity" "sha512-PYjyFOLKQ9y57JvQ6QLo8dAgNqswh8M1RMJYdQduT6xbWSgK36P/Z/v+p888pM69jMMfS8Xd8F6I1kQ/I9HUGg=="
+  "resolved" "https://registry.npmjs.org/arg/-/arg-5.0.2.tgz"
+  "version" "5.0.2"
 
 "argparse@^2.0.1":
   "integrity" "sha512-8+9WqebbFzpX9OR+Wa6O29asIogeRMzcGtAINdpMHHyAg10f05aSFVBbcEqGf/PXw1EjAZ+q2/bEBg3DvurK3Q=="
@@ -6951,6 +6968,11 @@
   "resolved" "https://registry.npmjs.org/immer/-/immer-9.0.19.tgz"
   "version" "9.0.19"
 
+"immutable@^3.8.1 || ^4.0.0-rc.1", "immutable@^3.8.2":
+  "integrity" "sha512-15gZoQ38eYjEjxkorfbcgBKBL6R7T459OuK+CpcWt7O3KF4uPCx2tD0uFETlUDIyo+1789crbMhTvQBSR5yBMg=="
+  "resolved" "https://registry.npmjs.org/immutable/-/immutable-3.8.2.tgz"
+  "version" "3.8.2"
+
 "import-fresh@^3.0.0", "import-fresh@^3.2.1":
   "integrity" "sha512-veYYhQa+D1QBKznvhUHxb8faxlrwUnxseDAbAp457E0wLNio2bOSKnjYDhMj+YiAq61xrMGhQk9iXVk5FzgQMw=="
   "resolved" "https://registry.npmjs.org/import-fresh/-/import-fresh-3.3.0.tgz"
@@ -9929,12 +9951,22 @@
   dependencies:
     "resolve" "^1.20.0"
 
+"redux-immutable@^4.0.0":
+  "integrity" "sha512-SchSn/DWfGb3oAejd+1hhHx01xUoxY+V7TeK0BKqpkLKiQPVFf7DYzEaKmrEVxsWxielKfSK9/Xq66YyxgR1cg=="
+  "resolved" "https://registry.npmjs.org/redux-immutable/-/redux-immutable-4.0.0.tgz"
+  "version" "4.0.0"
+
 "redux-saga@^1.2.3":
   "integrity" "sha512-HDe0wTR5nhd8Xr5xjGzoyTbdAw6rjy1GDplFt3JKtKN8/MnkQSRqK/n6aQQhpw5NI4ekDVOaW+w4sdxPBaCoTQ=="
   "resolved" "https://registry.npmjs.org/redux-saga/-/redux-saga-1.2.3.tgz"
   "version" "1.2.3"
   dependencies:
     "@redux-saga/core" "^1.2.3"
+
+"redux-thunk@^2.3.0":
+  "integrity" "sha512-+P3TjtnP0k/FEjcBL5FZpoovtvrTNT/UXd4/sluaSyrURlSlhLSzEdfsTBW7WsKB6yPvgd7q/iZPICFjW4o57Q=="
+  "resolved" "https://registry.npmjs.org/redux-thunk/-/redux-thunk-2.4.2.tgz"
+  "version" "2.4.2"
 
 "redux@^4", "redux@^4.0.4", "redux@^4.1.2", "redux@^4.2.1":
   "integrity" "sha512-LAUYz4lc+Do8/g7aeRa8JkyDErK6ekstQaqWQrNRW//MY1TvCEpMtpTWvlQ+FPbWCx+Xixu/6SHt5N0HR+SB4w=="
@@ -10327,6 +10359,11 @@
     "parse-srcset" "^1.0.2"
     "postcss" "^8.3.11"
 
+"sax@^1.2.4", "sax@>=0.6.0":
+  "integrity" "sha512-NqVDv9TpANUjFm0N8uM5GxL36UgKi9/atZw+x7YFnQ8ckwFGKrl4xX4yWtrey3UJm5nP1kUbnYgLopqWNSRhWw=="
+  "resolved" "https://registry.npmjs.org/sax/-/sax-1.2.4.tgz"
+  "version" "1.2.4"
+
 "scheduler@^0.20.2":
   "integrity" "sha512-2eWfGgAqqWFGqtdMmcL5zCMK1U8KlXv8SQFGglL3CEtd0aDVDWgeF/YoCmvln55m5zSk3J/20hTaSBeSObsQDQ=="
   "resolved" "https://registry.npmjs.org/scheduler/-/scheduler-0.20.2.tgz"
@@ -10604,6 +10641,16 @@
   "version" "0.2.2"
   dependencies:
     "is-arrayish" "^0.3.1"
+
+"sitemap@^7.1.0":
+  "integrity" "sha512-mK3aFtjz4VdJN0igpIJrinf3EO8U8mxOPsTBzSsy06UtjZQJ3YY3o3Xa7zSc5nMqcMrRwlChHZ18Kxg0caiPBg=="
+  "resolved" "https://registry.npmjs.org/sitemap/-/sitemap-7.1.1.tgz"
+  "version" "7.1.1"
+  dependencies:
+    "@types/node" "^17.0.5"
+    "@types/sax" "^1.2.1"
+    "arg" "^5.0.0"
+    "sax" "^1.2.4"
 
 "slash@^3.0.0":
   "integrity" "sha512-g9Q1haeby36OSStwb4ntCGGGaKsaVSjQ68fBxoQcutl5fS1vuY18H3wSt3jFyFtrkx+Kz0V1G85A4MyAdDMi2Q=="
@@ -10896,6 +10943,17 @@
     "chalk" "^4.1.2"
     "debug" "^4.3.4"
     "strapi-provider-rest-cache-memory" "^4.2.7"
+
+"strapi-plugin-sitemap@^2.0.10":
+  "integrity" "sha512-AFK4dd/s6CPeg6N4Kw1ZDmRnmGDsKcVSRcU9/T2DXBvi1UwXcboN3Fk6/dzfS4KmYZoMqQ4UepiXLY7+tFnBsw=="
+  "resolved" "https://registry.npmjs.org/strapi-plugin-sitemap/-/strapi-plugin-sitemap-2.0.10.tgz"
+  "version" "2.0.10"
+  dependencies:
+    "immutable" "^3.8.2"
+    "redux-immutable" "^4.0.0"
+    "redux-thunk" "^2.3.0"
+    "sitemap" "^7.1.0"
+    "xml2js" "^0.5.0"
 
 "strapi-plugin-slugify@^2.3.2":
   "integrity" "sha512-gZbZ+jdZYmSjjCdNR5WEhAcF7cokAX3wGlz7+vVgGpsp/ayvZACyWQzyqgfHbbqzjVtPFOi40Clp0OeRtfCHGg=="
@@ -11963,6 +12021,19 @@
   "integrity" "sha512-PSNhEJDejZYV7h50BohL09Er9VaIefr2LMAf3OEmpCkjOi34eYyQYAXUTjEQtZJTKcF0E2UKTh+osDLsgNim9Q=="
   "resolved" "https://registry.npmjs.org/xdg-basedir/-/xdg-basedir-4.0.0.tgz"
   "version" "4.0.0"
+
+"xml2js@^0.5.0":
+  "integrity" "sha512-drPFnkQJik/O+uPKpqSgr22mpuFHqKdbS835iAQrUC73L2F5WkboIRd63ai/2Yg6I1jzifPFKH2NTK+cfglkIA=="
+  "resolved" "https://registry.npmjs.org/xml2js/-/xml2js-0.5.0.tgz"
+  "version" "0.5.0"
+  dependencies:
+    "sax" ">=0.6.0"
+    "xmlbuilder" "~11.0.0"
+
+"xmlbuilder@~11.0.0":
+  "integrity" "sha512-fDlsI/kFEx7gLvbecc0/ohLG50fugQp8ryHzMTuW9vSa1GJ0XYWKnhsUx7oie3G98+r56aTQIUB4kht42R3JvA=="
+  "resolved" "https://registry.npmjs.org/xmlbuilder/-/xmlbuilder-11.0.1.tgz"
+  "version" "11.0.1"
 
 "xregexp@2.0.0":
   "integrity" "sha512-xl/50/Cf32VsGq/1R8jJE5ajH1yMCQkpmoS10QbFZWl2Oor4H0Me64Pu2yxvsRWK3m6soJbmGfzSR7BYmDcWAA=="
