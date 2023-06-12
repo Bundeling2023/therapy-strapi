@@ -41,6 +41,13 @@
       "type": "component",
       "repeatable": false,
       "component": "location.working-hours"
+    },
+    "img": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
