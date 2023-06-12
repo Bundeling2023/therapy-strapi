@@ -23,7 +23,7 @@
       "relation": "oneToOne",
       "target": "api::page.page"
     },
-    "algemenePage": {
+    "termsAndConditionsPage": {
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::page.page"
