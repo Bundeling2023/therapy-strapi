@@ -18,9 +18,6 @@
       "type": "richtext",
       "required": true
     },
-    "parrentPageUrl": {
-      "type": "string"
-    },
     "parrentPage": {
       "type": "relation",
       "relation": "oneToOne",
