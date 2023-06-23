@@ -23,17 +23,6 @@ module.exports = ({ env }) => ({
         defaultDepth: 20,
       }
     },
-    slugify: {
-      enabled: true,
-      config: {
-        contentTypes: {
-          article: {
-            field: 'slug',
-            references: 'title',
-          },
-        },
-      },
-    },
     'navigation': {
       enabled: true,
     },
