@@ -37,9 +37,8 @@
       "required": true
     },
     "url": {
-      "type": "string",
-      "required": true,
-      "unique": true
+      "type": "uid",
+      "targetField": "name"
     }
   }
 }
