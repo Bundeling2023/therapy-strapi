@@ -38,11 +38,6 @@
     "modalVideo": {
       "type": "customField",
       "customField": "plugin::video-field.video"
-    },
-    "teams": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::team.team"
     }
   }
 }

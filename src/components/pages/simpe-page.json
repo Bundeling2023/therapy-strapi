@@ -17,11 +17,6 @@
     "description": {
       "type": "richtext",
       "required": true
-    },
-    "parrentPage": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::page.page"
     }
   }
 }
