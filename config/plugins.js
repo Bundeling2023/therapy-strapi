@@ -49,6 +49,16 @@ module.exports = ({ env }) => ({
         },
       },
     },
+    'update-static-content': {
+      enabled: true,
+      config: {
+        githubToken: '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', // accessing personal github token from env file
+        owner: 'Bundeling2023', // owner of the repo
+        repo: 'therapy-front', // name of the repo
+        workflowId: 'railway-deploy', // workflowId OR filename
+        branch: 'main', // branch name
+      },
+    },
     "video-field":{
       enabled: true,
     },

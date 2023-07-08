@@ -22,7 +22,8 @@
     "strapi-plugin-navigation": "^2.2.11",
     "strapi-plugin-populate-deep": "^2.0.0",
     "strapi-plugin-rest-cache": "^4.2.7",
-    "strapi-plugin-sitemap": "^3.0.0"
+    "strapi-plugin-sitemap": "^3.0.0",
+    "strapi-plugin-update-static-content": "^1.0.8"
   },
   "author": {
     "name": "Pavel Astapov"
