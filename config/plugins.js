@@ -52,7 +52,7 @@ module.exports = ({ env }) => ({
     'update-static-content': {
       enabled: true,
       config: {
-        githubToken: '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', // accessing personal github token from env file
+        githubToken: env('GITHUB_TOKEN'), // accessing personal github token from env file
         owner: 'Bundeling2023', // owner of the repo
         repo: 'therapy-front', // name of the repo
         workflowId: 'railway-deploy.yml', // workflowId OR filename
