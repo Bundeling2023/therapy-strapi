@@ -39,6 +39,10 @@
     "url": {
       "type": "uid",
       "targetField": "name"
+    },
+    "bigRegistrationNumber": {
+      "type": "string",
+      "required": false
     }
   }
 }
