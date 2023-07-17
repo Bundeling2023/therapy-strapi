@@ -48,6 +48,10 @@
     "url": {
       "type": "uid",
       "targetField": "title"
+    },
+    "displayPriority": {
+      "type": "decimal",
+      "min": 0
     }
   }
 }
