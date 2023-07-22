@@ -2,7 +2,7 @@
   "name": "strapi",
   "private": true,
   "version": "0.1.0",
-  "description": "A Strapi application",
+  "description": "Strapi application for a company with a team and multiple locations",
   "scripts": {
     "dev": "npm run develop",
     "develop": "strapi develop",
@@ -12,22 +12,22 @@
   },
   "dependencies": {
     "@sklinet/strapi-plugin-video-field": "^1.0.5",
-    "@strapi/plugin-graphql": "4.11.4",
-    "@strapi/plugin-i18n": "4.11.4",
+    "@strapi/plugin-graphql": "4.11.7",
+    "@strapi/plugin-i18n": "4.11.7",
     "@strapi/plugin-seo": "^1.9.2",
-    "@strapi/plugin-users-permissions": "4.11.4",
-    "@strapi/provider-upload-cloudinary": "4.11.4",
-    "@strapi/strapi": "4.11.4",
+    "@strapi/plugin-users-permissions": "4.11.7",
+    "@strapi/provider-upload-cloudinary": "4.11.7",
+    "@strapi/strapi": "4.11.7",
     "pg": "8.11.1",
     "strapi-plugin-ckeditor5": "^2.1.1-rc.1",
     "strapi-plugin-navigation": "^2.2.11",
     "strapi-plugin-populate-deep": "^2.0.0",
     "strapi-plugin-rest-cache": "^4.2.7",
-    "strapi-plugin-sitemap": "^3.0.0",
+    "strapi-plugin-sitemap": "^3.0.2",
     "strapi-plugin-update-static-content": "^1.0.8"
   },
   "author": {
-    "name": "Pavel Astapov"
+    "name": "Pavel Astapov & Nick Nijenhuis"
   },
   "strapi": {
     "uuid": "35d7a084-3088-4d0b-869e-f503693ee8e5"
