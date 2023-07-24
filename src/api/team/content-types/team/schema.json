@@ -43,6 +43,10 @@
     "bigRegistrationNumber": {
       "type": "string",
       "required": false
+    },
+    "displayPriority": {
+      "type": "decimal",
+      "min": 0
     }
   }
 }
