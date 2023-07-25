@@ -27,6 +27,12 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::page.page"
+    },
+    "socialLinks": {
+      "displayName": "socialLinks",
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.social-links"
     }
   }
 }
