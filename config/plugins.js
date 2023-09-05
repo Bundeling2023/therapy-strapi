@@ -46,7 +46,7 @@ module.exports = ({ env }) => ({
         amountLimit: 100,
         apolloServer: {
           tracing: false,
-          introspection: true,
+          introspection: env('ENABLE_GRAPHQL_PLAYGROUND', 'false') === 'true',
         },
       },
     },
