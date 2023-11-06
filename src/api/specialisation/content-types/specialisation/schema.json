@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "specialisations",
+  "info": {
+    "singularName": "specialisation",
+    "pluralName": "specialisations",
+    "displayName": "Specialisations",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "pages": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::page.page",
+      "inversedBy": "specialisations"
+    },
+    "teamMembers": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::team.team",
+      "inversedBy": "specialisations"
+    }
+  }
+}
