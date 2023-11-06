@@ -47,6 +47,12 @@
     "displayPriority": {
       "type": "decimal",
       "min": 0
+    },
+    "specialisations": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::specialisation.specialisation",
+      "mappedBy": "teamMembers"
     }
   }
 }

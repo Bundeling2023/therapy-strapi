@@ -36,6 +36,12 @@
       "type": "uid",
       "targetField": "title",
       "required": true
+    },
+    "specialisations": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::specialisation.specialisation",
+      "mappedBy": "pages"
     }
   }
 }

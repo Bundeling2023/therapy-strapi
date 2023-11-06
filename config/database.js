@@ -6,7 +6,7 @@ module.exports = ({ env }) => ({
       port: env.int('PGPORT', 5432),
       database: env('PGDATABASE', 'strapi'),
       user: env('PGUSER', 'strapi'),
-      password: env('PGPASSWORD', 'password'),
+      password: env('PGPASSWORD', 'strapi'),
       ssl: env.bool(true),
       acquireConnectionTimeout: 5000,
     },
