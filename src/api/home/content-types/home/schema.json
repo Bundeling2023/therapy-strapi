@@ -36,8 +36,7 @@
       "component": "shared.seo"
     },
     "modalVideo": {
-      "type": "customField",
-      "customField": "plugin::video-field.video"
+      "type": "text"
     }
   }
 }

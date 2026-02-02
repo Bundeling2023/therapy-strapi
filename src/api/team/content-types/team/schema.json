@@ -33,8 +33,12 @@
       "required": true
     },
     "desc": {
-      "type": "richtext",
-      "required": true
+      "type": "customField",
+      "customField": "plugin::ckeditor5.CKEditor",
+      "required": true,
+      "options": {
+        "preset": "defaultHtml"
+      }
     },
     "url": {
       "type": "uid",
