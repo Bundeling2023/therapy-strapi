@@ -19,8 +19,12 @@
       ]
     },
     "description": {
-      "type": "richtext",
-      "required": true
+      "type": "customField",
+      "customField": "plugin::ckeditor5.CKEditor",
+      "required": true,
+      "options": {
+        "preset": "defaultHtml"
+      }
     },
     "link": {
       "type": "relation",

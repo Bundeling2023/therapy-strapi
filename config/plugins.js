@@ -1,4 +1,7 @@
 module.exports = ({ env }) => ({
+  ckeditor5: {
+    enabled: true,
+  },
   'users-permissions': {
     config: {
       jwtSecret: env('JWT_SECRET'),
@@ -29,14 +32,18 @@ module.exports = ({ env }) => ({
   seo: {
     enabled: true,
   },
-  'sitemap': {
-    enabled: true,
-    config: {
-      autoGenerate: true,
-      allowedFields: ['id', 'url'],
-      excludedTypes: [],
+    'strapi-5-sitemap-plugin': {
+      enabled: true,
+      config: {
+        cronSchedule: '0 0 * * *', // daily at midnight
+        sitemapBaseUrl: env('SITEMAP_BASE_URL', 'https://www.debundeling.nl'),
+        includeDrafts: false,
+        autoGenerate: true,
+        allowedFields: ['id', 'url'], // array of fields to include
+        exclude: [], // array of collection types to exclude
+        customRoutes: [], // array of custom routes
+      },
     },
-  },
   graphql: {
     config: {
       endpoint: '/graphql',
@@ -50,21 +57,12 @@ module.exports = ({ env }) => ({
       },
     },
   },
-  "netlify-deployments": {
-    enabled: true,
-    config: {
-      accessToken: env('NETLIFY_TOKEN', 'false'),
-      sites: [
-        {
-          name: env('NETLIFY_SITE_NAME', ''),
-          id: env('NETLIFY_SITE_ID', ''),
-          buildHook: env('NETLIFY_BUILD_HOOK', ''),
-          branch: env('NETLIFY_BRANCH', ''),
-        }
-      ]
+  "rest-cache": {
+  enabled: true,
+  config: {
+    provider: {
+      name: "memory",
     },
   },
-  "video-field": {
-    enabled: true,
-  },
+},
 });
