@@ -11,24 +11,24 @@
     "strapi": "strapi"
   },
   "dependencies": {
-    "@sklinet/strapi-plugin-video-field": "^1.0.6",
+    "@sklinet/strapi-plugin-video-field": "1.0.6",
     "@strapi/plugin-graphql": "4.25.11",
     "@strapi/plugin-i18n": "4.25.11",
-    "@strapi/plugin-seo": "^1.9.9",
+    "@strapi/plugin-seo": "1.9.9",
     "@strapi/plugin-users-permissions": "4.25.11",
     "@strapi/provider-upload-cloudinary": "4.25.11",
     "@strapi/strapi": "4.25.11",
     "pg": "8.12.0",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "react-router-dom": "^5.3.4",
-    "strapi-plugin-ckeditor5": "^2.1.1-rc.1",
-    "strapi-plugin-navigation": "^2.5.3",
-    "strapi-plugin-netlify-deployments": "^2.0.2",
-    "strapi-plugin-populate-deep": "^3.0.1",
-    "strapi-plugin-rest-cache": "^4.2.9",
-    "strapi-plugin-sitemap": "^3.2.0",
-    "styled-components": "^5.3.3"
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "react-router-dom": "5.3.4",
+    "strapi-plugin-ckeditor5": "2.1.1-rc.1",
+    "strapi-plugin-navigation": "2.5.3",
+    "strapi-plugin-netlify-deployments": "2.0.2",
+    "strapi-plugin-populate-deep": "3.0.1",
+    "strapi-plugin-rest-cache": "4.2.9",
+    "strapi-plugin-sitemap": "3.2.0",
+    "styled-components": "5.3.3"
   },
   "author": {
     "name": "Nick Nijenhuis"
