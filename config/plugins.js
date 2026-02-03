@@ -55,6 +55,7 @@ module.exports = ({ env }) => ({
         tracing: false,
         introspection: env('ENABLE_GRAPHQL_PLAYGROUND', 'false') === 'true',
       },
+      v4CompatibilityMode: false,
     },
   },
   "rest-cache": {
