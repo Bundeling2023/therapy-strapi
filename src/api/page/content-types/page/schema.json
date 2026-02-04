@@ -14,8 +14,8 @@
   "attributes": {
     "simplePage": {
       "type": "component",
-      "repeatable": false,
-      "component": "pages.simpe-page"
+      "component": "pages.simpe-page",
+      "repeatable": false
     },
     "title": {
       "type": "string",
@@ -23,19 +23,19 @@
     },
     "pageWithBlocks": {
       "type": "component",
-      "repeatable": false,
-      "component": "pages.page-with-blocks"
+      "component": "pages.page-with-blocks",
+      "repeatable": false
     },
     "seo": {
       "type": "component",
-      "repeatable": false,
       "component": "shared.seo",
+      "repeatable": false,
       "required": true
     },
     "url": {
       "type": "uid",
       "targetField": "title",
-      "required": true
+      "required": false
     },
     "specialisations": {
       "type": "relation",
