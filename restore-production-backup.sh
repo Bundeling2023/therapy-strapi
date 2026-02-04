@@ -28,7 +28,7 @@ echo "Step 2: Creating fresh test database..."
 PGPASSWORD="$LOCAL_PASSWORD" createdb -h "$LOCAL_HOST" -p "$LOCAL_PORT" -U "$LOCAL_USER" "$LOCAL_DB"
 
 echo "Step 3: Restoring production backup (this may take a minute)..."
-cd /home/nick/bundeling/therapy-strapi/backups
+cd /home/nick/bundeling/therapy-strapi/db-backups
 PGPASSWORD="$LOCAL_PASSWORD" pg_restore -h "$LOCAL_HOST" -p "$LOCAL_PORT" -U "$LOCAL_USER" -d "$LOCAL_DB" --no-owner --no-privileges -v . 2>&1 | grep -v "^pg_restore: " || true
 
 echo ""
