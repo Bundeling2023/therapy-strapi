@@ -3,8 +3,9 @@
   "private": true,
   "version": "1.1.0",
   "description": "Strapi application for a company with a team and multiple locations",
+  "packageManager": "pnpm@10.33.0",
   "scripts": {
-    "dev": "npm run develop",
+    "dev": "pnpm run develop",
     "develop": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
