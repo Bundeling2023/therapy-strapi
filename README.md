@@ -50,3 +50,10 @@ docker run \
 ```
 
 * Run `npm run develop`
+
+
+### Environments
+
+- Railway (default shared account)
+- Webmail: via webhosting
+- DB Backups: AWS (default shared account)
