@@ -137,6 +137,7 @@ export interface SharedSocialLinks extends Struct.ComponentSchema {
   attributes: {
     facebook: Schema.Attribute.String;
     instagram: Schema.Attribute.String;
+    tiktok: Schema.Attribute.String;
     youtube: Schema.Attribute.String;
   };
 }

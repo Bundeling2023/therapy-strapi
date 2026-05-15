@@ -28,6 +28,7 @@ module.exports = [
   'strapi::logger',
   'strapi::query',
   'strapi::body',
+  'global::navigation-graphql-cache',
   'strapi::session',
   'strapi::favicon',
   'strapi::public',

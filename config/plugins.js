@@ -87,11 +87,6 @@ module.exports = ({ env }) => ({
     },
   },
   "rest-cache": {
-    enabled: true,
-    config: {
-      provider: {
-        name: "memory",
-      },
-    },
+    enabled: false,
   },
 });

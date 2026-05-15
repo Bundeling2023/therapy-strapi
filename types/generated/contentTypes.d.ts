@@ -1191,6 +1191,7 @@ export interface PluginStrapi5SitemapPluginStrapi5SitemapPluginContentType
     > &
       Schema.Attribute.Private;
     pattern: Schema.Attribute.String;
+    populateLinkedModels: Schema.Attribute.String;
     priority: Schema.Attribute.Float;
     publishedAt: Schema.Attribute.DateTime;
     thumbnail: Schema.Attribute.String;
@@ -1266,6 +1267,7 @@ export interface PluginStrapi5SitemapPluginStrapi5SitemapPluginOption
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
+    excludedUrls: Schema.Attribute.JSON & Schema.Attribute.DefaultTo<[]>;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
     localizations: Schema.Attribute.Relation<
       'oneToMany',
@@ -1273,9 +1275,12 @@ export interface PluginStrapi5SitemapPluginStrapi5SitemapPluginOption
     > &
       Schema.Attribute.Private;
     publishedAt: Schema.Attribute.DateTime;
+    sitemapDefinitions: Schema.Attribute.JSON & Schema.Attribute.DefaultTo<[]>;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
+    useSitemapIndex: Schema.Attribute.Boolean &
+      Schema.Attribute.DefaultTo<false>;
   };
 }
 
