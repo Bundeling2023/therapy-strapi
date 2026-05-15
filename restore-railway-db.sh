@@ -142,13 +142,15 @@ else
 fi
 
 echo ""
+echo "Resetting target schema..."
+run_db_cmd psql "$TARGET_URL" -v ON_ERROR_STOP=1 -c "DROP SCHEMA IF EXISTS public CASCADE; CREATE SCHEMA public;"
+
 echo "Restoring into target..."
 run_db_cmd pg_restore \
   --exit-on-error \
-  --clean \
-  --if-exists \
   --no-owner \
   --no-privileges \
+  --schema=public \
   --dbname "$TARGET_URL" \
   "$RESTORE_SOURCE"
 
